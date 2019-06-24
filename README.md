@@ -1,4 +1,4 @@
-# :video_game:   Snake   :snake:
+# :video_game:   Serpentron   :snake:
 
 :construction_worker: Work in progress
 
