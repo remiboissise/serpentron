@@ -1,0 +1,10 @@
+.box-score {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    .score {
+        margin: 10px;
+    }
+}
