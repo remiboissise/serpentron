@@ -74,14 +74,14 @@ export default class App extends React.Component {
                 clearInterval(this.intervalID);
                 this.intervalID = setInterval(this.tick, delay);
                 this.setState({ 
-                    snake_one: generateSnake('RIGHT'),
-                    snake_two: generateSnake('LEFT'),
+                    snake_one: generateSnake('LEFT'),
+                    snake_two: generateSnake('RIGHT'),
                     snake_one_score: this.state.snake_one_score,
                     snake_two_score: this.state.snake_two_score,
                     key_snake_one: keyboardSnake('ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'),
                     key_snake_two: keyboardSnake('z', 's', 'q', 'd'),
                     keypressed_snake_one: CONTROLS.UP,
-                    keypressed_snake_two: CONTROLS.LEFT,
+                    keypressed_snake_two: CONTROLS.DOWN,
                 });
             }
 
