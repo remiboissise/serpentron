@@ -7,5 +7,5 @@ The goal of the game is to survive as long as possible without touching the oppo
 Have fun :grin:
 
 ## Demo
-[Demo]: https://serpentron.netlify.com
+[Demo]: https://serpentron.remiboissise.com
 See [Demo]
