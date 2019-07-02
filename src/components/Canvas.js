@@ -71,6 +71,6 @@ export function showText(font, text) {
     CTX.fillStyle = styles.black;
     CTX.textBaseline = 'middle';
     CTX.textAlign = "center";
-    CTX.font = "1.8rem " + font.family;
+    CTX.font = "2rem " + font.family;
     CTX.fillText(text, (CANVAS_WIDTH / 2), CANVAS_HEIGHT / 2);
 }

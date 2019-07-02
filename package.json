@@ -1,8 +1,7 @@
 {
   "name": "serpentron",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://remiboissise.github.io/serpentron/",
   "dependencies": {
     "fontfaceobserver": "^2.1.0",
     "node-sass": "^4.12.0",
@@ -11,16 +10,13 @@
     "react-ga": "^2.5.7",
     "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "publish": "npm run build && netlify deploy --prod"
   },
   "eslintConfig": {
     "extends": "react-app"
